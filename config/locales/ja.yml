@@ -1,0 +1,14 @@
+ja:
+  activerecord:
+    attributes:
+      user:
+        nickname: ニックネーム
+        last_name: 苗字
+        first_name: 名前
+        birthday: 誕生日
+        last_name_details: 名前のフリガナ
+        first_name_details: 苗字のフリガナ
+      post:
+        text: テキスト
+        image: 画像
+     
