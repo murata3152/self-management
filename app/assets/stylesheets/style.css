@@ -77,12 +77,12 @@ a {
   display: inline-block;
   padding: 0.4em 1.6em;
   font-size: 0.8em;
-  color: #87CEFA;
+  color: #db5c00;
   text-decoration: none;
   user-select: none;
 }
 .nav__logout:hover{
-  opacity: 0.5;
+  color: #02bdf7;
 }
 
 /* フォーム周り */

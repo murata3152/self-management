@@ -7,7 +7,16 @@
   justify-content: center;
 }
 
-/* form-wrapは商品購入画面でも使用しています */
+.indispensable{
+  font-size: 10px;
+  color: rgba(245, 6, 6, 0.918);
+}
+
+.indispensable-sub{
+  font-size: 10px;
+  color: rgba(5, 5, 5, 0.918);
+}
+
 .form-wrap {
   width: 50%;
   background-color: white;
@@ -117,6 +126,11 @@
   padding: 0 5px;
 }
 
+.input-hobby{
+  width: 100;
+  margin-top: 5px;
+  height: 150px;
+}
 .field_with_errors {
   display: contents;
 }
