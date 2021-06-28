@@ -7,7 +7,7 @@
       <% if user_signed_in? %>
         <div class="nav__right">
           <%= link_to "ログアウト",  destroy_user_session_path, method: :delete, class: :nav__logout %>
-          <%= link_to "投稿", root_path, class: :nav__btn%>
+          <button class="add" id="add"> <i class="fas fa-plus"></i> +memo</button>
         </div>
       <% else%>
         <div class="nav__right">
@@ -21,3 +21,5 @@
 <footer class="footer">
   <p class="copyright">Copyright © SELF MANAGEMENT All rights reserved.</p>
 </footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/marked/1.2.2/marked.min.js"></script>
+<script type="text/javascript" src="script.js"></script>

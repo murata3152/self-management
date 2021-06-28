@@ -8,7 +8,5 @@ ja:
         birthday: 誕生日
         last_name_details: 名前のフリガナ
         first_name_details: 苗字のフリガナ
-      post:
-        text: テキスト
-        image: 画像
+        
      
